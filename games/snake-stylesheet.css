@@ -1,0 +1,36 @@
+body, #main {
+    overflow: hidden;
+}
+.apple {
+    position: absolute;
+    background-color: red;
+    width: 50px;
+    height: 50px;
+}
+.snake {
+    position: absolute;
+    /* background-color: green; */
+    width: 64px;
+    height: 64px;
+
+    background-image: url("assets/snake.png");
+    background-size: 250px 200px; /* scaled by 50/64 */
+}
+#main {
+    max-width: 100%;
+}
+#keys {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    text-align: center;
+}
+.key {
+    margin-bottom: 2px;
+    opacity: 0.5;
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+}
